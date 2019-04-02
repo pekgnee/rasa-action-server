@@ -20,6 +20,9 @@ gcloud app create
 gcloud app deploy app.yaml --project {{project-id}}
 ```
 
-Resources:
-https://cloud.google.com/community/tutorials/python-gae-quickstart
-https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/appengine/standard_python37/hello_world
+### Resources:
+https://cloud.google.com/community/tutorials/python-gae-quickstart  
+https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/appengine/standard_python37/hello_world  
+
+https://github.com/RasaHQ/rasa_core_sdk/tree/master/examples/moodbot  
+https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app  
