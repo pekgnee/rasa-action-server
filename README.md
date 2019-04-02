@@ -5,7 +5,16 @@ git clone https://github.com/pekgnee/rasa-action-server
 cd rasa-action-server
 virtualenv --python python3 ~/envs/rasa_action_server
 source ~/envs/rasa_action_server/bin/activate
+pip install -r requirements.txt
+python main.py
+```
 
+Preview app with "Web preview"
+Terminating the preview instance with Ctrl+C
+
+```
+gcloud app create
+gcloud app deploy app.yaml --project {{project-id}}
 ```
 
 Resources:
