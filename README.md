@@ -1,5 +1,8 @@
 # rasa-action-server
 
+From Console Home Create Project
+
+Run commands from Cloud Shell
 ```
 git clone https://github.com/pekgnee/rasa-action-server
 cd rasa-action-server
