@@ -1,29 +1,17 @@
-# rasa-action-server
+# simple-bot-for-tourism
 
-From Console Home Create Project
+Custom actions are used to retrieve data from Tourism Information & Services Hub (TIH) API  
+https://tih-dev.stb.gov.sg/content-api/apis
 
-Run commands from Cloud Shell
-```
-git clone https://github.com/pekgnee/rasa-action-server
-cd rasa-action-server
-virtualenv --python python3 ~/envs/rasa_action_server
-source ~/envs/rasa_action_server/bin/activate
-pip install -r requirements.txt
-python main.py
-```
-
-Preview app with "Web preview"
-Terminating the preview instance with Ctrl+C
-
-```
-gcloud app create
-gcloud app deploy app.yaml --project {{project-id}}
-```
+[Register as a developer](https://tih.stb.gov.sg/content/tih/en/profile/register.html) to receive apikey required to run custom action server  
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+**MANDATORY**  
+***Pls upload actions.py to Colab /content root folder and replace apikey in actions.py with a valid one,  
+otherwise action server will not work !!***  
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 
 ### Resources:
-https://cloud.google.com/community/tutorials/python-gae-quickstart  
-https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/appengine/standard_python37/hello_world  
-
+https://rasa.com/docs/  
+https://github.com/RasaHQ/rasa_core_sdk
 https://github.com/RasaHQ/rasa_core_sdk/tree/master/examples/moodbot  
-https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app  
-https://cloud.google.com/cloud-build/docs/quickstart-docker
+https://tih-dev.stb.gov.sg/content-api/apis  
