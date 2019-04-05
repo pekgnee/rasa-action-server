@@ -11,7 +11,7 @@ import urllib.parse
 # Run with command:
 #     python -m rasa_core_sdk.endpoint --actions actions
 # Action endpoint uses DEFAULT_SERVER_PORT = 5055
-apikey = 'E1Ju3RkMboFwowRN0IcVnJdZ3Grk8kEu'
+apikey = '<<REPLACE-WITH-VALID-API-KEY>>'
 
 # Store attraction entity in slot
 class ActionGetAttractionEntity(Action):
