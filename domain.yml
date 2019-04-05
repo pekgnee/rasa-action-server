@@ -1,0 +1,54 @@
+
+intents:
+  - search_attraction
+  - search_hotel
+  - check_info
+  - no_other_request
+
+slots:
+  attraction:
+    type: text
+  hotel:
+    type: text    
+  search_result:
+    type: text
+  info_field:
+    type: text
+  info_result:
+    type: text
+
+actions:
+- action_get_attraction_entity
+- utter_search_attraction
+- action_search_attraction
+- utter_search_result
+- action_get_info_field_entity
+- utter_check_info
+- action_check_info
+- utter_info_result
+- utter_no_other_request
+- action_get_hotel_entity
+- utter_search_hotel
+- action_search_hotel
+
+templates:
+  utter_search_attraction:
+  - text: "Searching attraction {attraction}"
+
+  utter_search_hotel:
+  - text: "Searching hotel {hotel}"
+
+  utter_search_result:
+  - text: "Found result {search_result}"
+
+  utter_check_info:
+  - text: "Checking for {info_field}"
+
+  utter_info_result:
+  - text: "Found info {info_result}"
+
+  utter_no_other_request:
+  - text: "Have a nice day"
+  - text: "Thank you"
+  - text: "Bye"
+  

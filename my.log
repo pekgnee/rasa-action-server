@@ -1,0 +1,46 @@
+INFO:__main__:Starting action endpoint server...
+INFO:rasa_core_sdk.executor:Registered function for 'action_get_attraction_entity'.
+INFO:rasa_core_sdk.executor:Registered function for 'action_search_attraction'.
+INFO:rasa_core_sdk.executor:Registered function for 'action_get_info_field_entity'.
+INFO:rasa_core_sdk.executor:Registered function for 'action_check_info'.
+INFO:rasa_core_sdk.executor:Registered function for 'action_get_hotel_entity'.
+INFO:rasa_core_sdk.executor:Registered function for 'action_search_hotel'.
+INFO:__main__:Action endpoint is up and running. on ('0.0.0.0', 5055)
+DEBUG:rasa_core_sdk.executor:Received request to run 'action_get_hotel_entity'
+DEBUG:rasa_core_sdk.executor:Successfully ran 'action_get_hotel_entity'
+127.0.0.1 - - [2019-04-05 15:03:02] "POST /webhook HTTP/1.1" 200 258 0.001981
+DEBUG:rasa_core_sdk.executor:Received request to run 'action_search_hotel'
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tih-api.stb.gov.sg
+DEBUG:urllib3.connectionpool:https://tih-api.stb.gov.sg:443 "GET /content/v1/accommodation/search?apikey=E1Ju3RkMboFwowRN0IcVnJdZ3Grk8kEu&keyword=The%2520Fullerton%2520Hotel%2520Singapore HTTP/1.1" 200 None
+DEBUG:rasa_core_sdk.executor:Successfully ran 'action_search_hotel'
+127.0.0.1 - - [2019-04-05 15:03:03] "POST /webhook HTTP/1.1" 200 4566 1.729022
+DEBUG:rasa_core_sdk.executor:Received request to run 'action_get_info_field_entity'
+DEBUG:rasa_core_sdk.executor:Successfully ran 'action_get_info_field_entity'
+127.0.0.1 - - [2019-04-05 15:03:12] "POST /webhook HTTP/1.1" 200 251 0.001575
+DEBUG:rasa_core_sdk.executor:Received request to run 'action_check_info'
+DEBUG:rasa_core_sdk.executor:Successfully ran 'action_check_info'
+127.0.0.1 - - [2019-04-05 15:03:13] "POST /webhook HTTP/1.1" 200 249 0.001109
+DEBUG:rasa_core_sdk.executor:Received request to run 'action_get_attraction_entity'
+DEBUG:rasa_core_sdk.executor:Successfully ran 'action_get_attraction_entity'
+127.0.0.1 - - [2019-04-05 15:05:38] "POST /webhook HTTP/1.1" 200 249 0.001473
+DEBUG:rasa_core_sdk.executor:Received request to run 'action_search_attraction'
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tih-api.stb.gov.sg
+DEBUG:urllib3.connectionpool:https://tih-api.stb.gov.sg:443 "GET /content/v1/attractions/search?apikey=E1Ju3RkMboFwowRN0IcVnJdZ3Grk8kEu&keyword=Sentosa%2520Merlion HTTP/1.1" 200 None
+DEBUG:rasa_core_sdk.executor:Successfully ran 'action_search_attraction'
+127.0.0.1 - - [2019-04-05 15:05:40] "POST /webhook HTTP/1.1" 200 5376 1.571239
+DEBUG:rasa_core_sdk.executor:Received request to run 'action_get_info_field_entity'
+DEBUG:rasa_core_sdk.executor:Successfully ran 'action_get_info_field_entity'
+127.0.0.1 - - [2019-04-05 15:06:02] "POST /webhook HTTP/1.1" 200 251 0.001651
+DEBUG:rasa_core_sdk.executor:Received request to run 'action_check_info'
+DEBUG:rasa_core_sdk.executor:Successfully ran 'action_check_info'
+127.0.0.1 - - [2019-04-05 15:06:02] "POST /webhook HTTP/1.1" 200 249 0.001410
+DEBUG:rasa_core_sdk.executor:Received request to run 'action_search_attraction'
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): tih-api.stb.gov.sg
+DEBUG:urllib3.connectionpool:https://tih-api.stb.gov.sg:443 "GET /content/v1/attractions/search?apikey=E1Ju3RkMboFwowRN0IcVnJdZ3Grk8kEu&keyword=gardens%2520by%2520the%2520bay HTTP/1.1" 200 None
+DEBUG:rasa_core_sdk.executor:Successfully ran 'action_search_attraction'
+127.0.0.1 - - [2019-04-05 15:06:39] "POST /webhook HTTP/1.1" 200 5688 1.535773
+DEBUG:rasa_core_sdk.executor:Received request to run 'action_get_info_field_entity'
+DEBUG:rasa_core_sdk.executor:Successfully ran 'action_get_info_field_entity'
+127.0.0.1 - - [2019-04-05 15:09:21] "POST /webhook HTTP/1.1" 200 241 0.001623
+DEBUG:rasa_core_sdk.executor:Received request to run 'action_check_info'
+DEBUG:rasa_core_sdk.executor:Successfully ran 'action_check_info'
