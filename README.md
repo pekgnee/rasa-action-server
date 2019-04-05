@@ -12,6 +12,6 @@ otherwise action server will not work !!***
 
 ### Resources:
 https://rasa.com/docs/  
-https://github.com/RasaHQ/rasa_core_sdk
+https://github.com/RasaHQ/rasa_core_sdk  
 https://github.com/RasaHQ/rasa_core_sdk/tree/master/examples/moodbot  
 https://tih-dev.stb.gov.sg/content-api/apis  
